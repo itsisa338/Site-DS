@@ -1,4 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 
+div.cabecalho{
+  color: white;
+    background-color:#161666e2;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 0;
+    font-family: "Kalnia", serif;
+    font-weight: 300px;
+   }
+   
+   .menu {
+      font-family: "PT Serif" , serif;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      background-color: #161666e2;
+      font-weight: 300px;
+      /* font-family: "Kalnia", serif; */
+   }
+   
+   .menu a{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     font-weight: 300px;
+     line-height: 45px;
+   }
+   
+   .menu a:hover{
+       color:rgb(3, 3, 3);
+   }
+   
+  .texto-conteudo{
+    text-align: center;
+  }
+
+  .mapa{
+    display: block;
+    margin: 0 auto;
+  }
+   
  
   
    
