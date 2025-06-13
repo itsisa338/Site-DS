@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 
-div.cabecalho{
+.cabecalho{
   color: white;
     background-color:#161666e2;
     display: flex;
@@ -12,13 +12,12 @@ div.cabecalho{
    }
    
    .menu {
-      font-family: "PT Serif" , serif;
       list-style: none;
       display: flex;
       justify-content: space-between;
       background-color: #161666e2;
       font-weight: 300px;
-      /* font-family: "Kalnia", serif; */
+      font-family: "Kalnia", serif;
    }
    
    .menu a{
@@ -40,6 +39,20 @@ div.cabecalho{
   .mapa{
     display: block;
     margin: 0 auto;
+  }
+
+.container-produtos{
+  list-style: none;
+}
+
+  .item-produto {
+    width: 20%;
+    border: 3px solid black;
+    margin: 20px;
+  }
+
+  .imagem-produto {
+    width: 100%;
   }
    
  
