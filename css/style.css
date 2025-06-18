@@ -46,13 +46,27 @@
 }
 
   .item-produto {
-    width: 20%;
-    border: 3px solid black;
+    width: 15%;
+    background-color: #DDE4EF ;
     margin: 20px;
+    padding: 30px 30px 5px;
   }
 
   .imagem-produto {
     width: 100%;
+    background-color: #ffffffe2;
+  }
+
+  .nome-produto {
+
+    text-align: center;
+    font-weight: 400;
+  }
+   
+  .preco-produto{
+
+    text-align: center;
+    background-color: white;
   }
    
  
