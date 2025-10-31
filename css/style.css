@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 
 .cabecalho{
-  color: white;
+  color:(#161666e2);
     background-color:#161666e2;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
-    padding: 10px 0;
+    padding: 10px ;
     font-family: "Kalnia", serif;
-    font-weight: 300px;
+    font-weight: 300px; 
+   }
+
+   .cabecalho-icone{
+    width: 60px;
+   
+    
    }
    
    .menu {
@@ -43,18 +49,25 @@
 
 .container-produtos{
   list-style: none;
+  display: flex;
 }
 
-  .item-produto {
+  .item-produto { 
+
     width: 15%;
     background-color: #DDE4EF ;
-    margin: 20px;
+    margin: 30px;
     padding: 30px 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
   }
 
   .imagem-produto {
     width: 100%;
     background-color: #ffffffe2;
+    height: 80%;
   }
 
   .nome-produto {
@@ -68,7 +81,5 @@
     text-align: center;
     background-color: white;
   }
-   
- 
-  
-   
+
+
