@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="css/reset.css"> -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+          <h1 class="cabecalho-titulo"> <img src="Imagem/eletricasa-removebg-preview.png"></h1>
+          <img class="cabecalho-icone" src="Imagem/depositphotos_185769890-stock-illustration-three-bar-line-icon-symbol-removebg-preview.png">
+            
+        </header> 
+        <nav>
+            <ul class="menu">
+                <li> <a href="index.html"> Pagina Inicial </a> </li>
+                <li> <a href="produtos.html"> Produtos</a> </li>
+                <li><a> Contato </a> </li>
+            </ul>
+
+<form action = ""> </form>
+    <label for = "campo nome"> 
+    Nome: </label>
+    <input type="text" id="campo_nome" name = "nome" placeholder="Nome Completo" required >
+    <br><br>
+    <label for="campo_email"> 
+    E-mail:
+    </label>
+        <input type="email" id="campo_email" name="email" placeholder="exemplo@email.com" required >
+   <br><br>
+    <label for="campo_whats">
+        WhatsApp:
+    <input type="tel" id="campo_whats" name="whats" placeholder="(xx) xxxxx-xxxx">
+    </label>
+    <br><br>
+   <fieldset>
+     <legend> Escolha uma linguagem de programaçao: </legend>
+     <label for="opçao1">
+        <input type="radio" id="opçao1" name="opçes" checked>
+        Java
+     </label>
+     <br><br>
+      <label for="opçao2">
+        <input type="radio" id="opçao3" name="opçes" checked>
+        C
+       </label>
+      <br><br>
+     <label for="opçao2">
+       <input type="radio" id="opçao3" name="opçes" checked>
+       Phyton
+     </label>
+    
+</fieldset>
+
+<br><br>
+  
+    <label for="turno"> Escolha o período de estudos:</label><br>
+   <select id="turno" name="turno">
+      <option value="Manhã">
+        Manhã
+     </option>
+      <option value="tarde">
+        Tarde
+       </option>
+      <option value="noite">
+        Noite
+      </option>
+   </select>
+
+   <br><br>
+   <input type="submit" value="Enviar">
+   <input type="reset" value="Limpar">
