@@ -3,21 +3,69 @@
    <head>
       <title>  EletriCasa </title>
       <link rel="icon" href="Imagem/WhatsApp_Image_2025-05-23_at_20.18.19-removebg-preview.png">
-      <link rel="stylesheet"  href="css/style.css">
+      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
+
+      <style>
+         body {
+           font-family: "Lato", sans-serif;
+         }
+         
+         .sidenav {
+           height: 100%;
+           width: 0;
+           position: fixed;
+           z-index: 1;
+           top: 0;
+           left: 0;
+           background-color: #111;
+           overflow-x: hidden;
+           transition: 0.5s;
+           padding-top: 60px;
+         }
+         
+         .sidenav a {
+           padding: 8px 8px 8px 32px;
+           text-decoration: none;
+           font-size: 25px;
+           color: #818181;
+           display: block;
+           transition: 0.3s;
+         }
+         
+         .sidenav a:hover {
+           color: #f1f1f1;
+         }
+         
+         .sidenav .closebtn {
+           position: absolute;
+           top: 0;
+           right: 25px;
+           font-size: 36px;
+           margin-left: 50px;
+         }
+         
+         @media screen and (max-height: 450px) {
+           .sidenav {padding-top: 15px;}
+           .sidenav a {font-size: 18px;}
+         }
+         </style>
       
     <header class="cabecalho">
       <h1 class="cabecalho-titulo"> <img src="Imagem/eletricasa-removebg-preview.png"></h1>
-            <img class="cabecalho-icone" src="Imagem/depositphotos_185769890-stock-illustration-three-bar-line-icon-symbol-removebg-preview.png">
+      <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
     </header>
    </div>
 
-<ul class="menu">
-  <li> <a href="index.html"> Pagina Inicial </a> </li>
-  <li> <a href="produtos.html"> Produtos</a> </li>
-  <li> <a href="contato.html"> Contatos </a> </li>
-</ul>
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html"> Pagina Inicial</a>
+      <a href="#">Services</a>
+      <a href="produtos.html"> Produtos</a>
+      <a href="contato.html"> Contato</a>
+    </div>
+    
 
 
 
@@ -35,4 +83,7 @@
 <div class="rodape">
    <p> Site desenvolvido por Isa e Matheus </p>
 </div>
+<script src="./css/script.js"></script>
 </body>
+  
+<script src="./css/script.js"></script>
