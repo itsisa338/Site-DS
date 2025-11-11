@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
 
 .cabecalho{
   color:(#161666e2);
@@ -11,7 +13,7 @@
     font-weight: 300px; 
    }
 
-   .cabecalho-icone{
+   .cabecalho-menu{
     width: 60px;
    
     
@@ -81,5 +83,8 @@
     text-align: center;
     background-color: white;
   }
+
+
+
 
 
